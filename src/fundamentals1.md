@@ -128,9 +128,9 @@ for (var i=1;i<=10;i++){
 An object in `JavaScript` can store multiple pieces of informatoin inside one variable. Dot *(`.`)* notation is used to access a property of an object *(`object.property`)*.
 ``` js
 var object = {
-   property1 = 1,
-   property2 = 10,
-   property3 = 100,
+   property1 : 1,
+   property2 : 10,
+   property3 : 100,
 }
 console.log(object.property1) // 1
 ```
